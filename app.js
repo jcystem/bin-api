@@ -2,7 +2,7 @@
 const express = require("express");
 const path = require("path");
 const cors = require("cors");
-const { binLookup } = require("@jcystem/bin-lookup/lib");
+const { binLookup } = require("@arnabxd/bin-lookup/lib");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
