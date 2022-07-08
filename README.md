@@ -68,6 +68,6 @@ Your app should now be running on [localhost:3000](http://localhost:3000/).
 ## Deploy
 | Heroku | Vercel |
 | :---: | :---: |
-| [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy) | [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/jcystem/api-bin-web) |
+| [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy) | [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/jcystem/bin-api) |
 
 `Note : Scraping is not a Fair use of Vercel`
