@@ -1,7 +1,20 @@
+# Bins-Su-API
+
+An API to get BIN details from bins.su ( Unofficial &amp; may not work if bins.su do any changes to their site )
+
+---
+
+[Why bins-su-api.now.sh isn't working ?](https://github.com/ArnabXD/bins-su-api/issues/5#issuecomment-810950435)
+
+---
+
 ## API
 
 Send Get Request to `http://yourhost:port/api/{bin}`
 
+## Example
+
+Request to : `https://binssuapi.vercel.app/api/549184`
 
 Response : 
 
@@ -39,11 +52,22 @@ Response :
 
 ---
 
+## Running Locally
+
+```bash
+$ git clone https://github.com/ArnabXD/bins-su-api
+$ cd bins-su-api
+$ npm install 
+$ npm start
+```
+
+Your app should now be running on [localhost:3000](http://localhost:3000/).
+
+---
+
 ## Deploy
-| Heroku |
+| Heroku | Vercel |
 | :---: | :---: |
-| [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy) 
+| [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy) | [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/jcystem/api-bin-web) |
 
-# Deploy To Heroku
-
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/jcystem/bin-api)
+`Note : Scraping is not a Fair use of Vercel`
