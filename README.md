@@ -1,22 +1,18 @@
-# Bins-Su-API
+# Bins-API
 
-An API to get BIN details from bins.su ( Unofficial &amp; may not work if bins.su do any changes to their site )
-
----
-
-[Why bins-su-api.now.sh isn't working ?](https://github.com/ArnabXD/bins-su-api/issues/5#issuecomment-810950435)
+Una API para obtener detalles de BIN o tarjetas de Crédito o Débito.
 
 ---
 
 ## API
 
-Send Get Request to `http://yourhost:port/api/{bin}`
+Enviar solicitud de obtención a `http://yourhost:port/api/{bin}`
 
-## Example
+## Ejemplo
 
-Request to : `https://binssuapi.vercel.app/api/549184`
+Obtener API en : `https://bin.jcystem.com/API/549184`
 
-Response : 
+Respuesta : 
 
 ```json
 {
@@ -52,22 +48,22 @@ Response :
 
 ---
 
-## Running Locally
+## Instalación Local
 
 ```bash
-$ git clone https://github.com/ArnabXD/bins-su-api
+$ git clone https://github.com/srnovus/bin-api/
 $ cd bins-su-api
 $ npm install 
 $ npm start
 ```
 
-Your app should now be running on [localhost:3000](http://localhost:3000/).
+Su aplicación ahora debería estar ejecutándose en [localhost:3000](http://localhost:3000/).
 
 ---
 
 ## Deploy
 | Heroku | Vercel |
 | :---: | :---: |
-| [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy) | [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/jcystem/bin-api) |
+| [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy) | [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/srnovus/bin-api) |
 
-`Note : Scraping is not a Fair use of Vercel`
+`Nota: el raspado no es un uso justo de Vercel`
