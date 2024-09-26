@@ -1,10 +1,10 @@
 {
   "name": "bins-su-api",
-  "version": "2.0.0",
+  "version": "2024.10.26",
   "description": "An Unofficial API to get BIN Details from bins.su",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jcystem"
+    "url": "https://github.com/srnovus"
   },
   "main": "app.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
-  "author": "@jcystem",
+  "author": "@srnovus",
   "license": "ISC",
   "dependencies": {
     "@arnabxd/bin-lookup": "^1.1.1",
